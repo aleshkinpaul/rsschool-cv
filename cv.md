@@ -27,3 +27,33 @@ I expect to become a front-end developer soon.
 	- Photoshop
 	- Illustrator
 	- PowerPoint
+
+### Experience
+- 2017-current time: System Analyst
+
+### Education
+- 2013-2019: Moscow State University, Faculty of Mechanics and Mathematics, Department of Probability theory
+- 2020: RSSchool (JavaScript/Front-end 2021Q3 / Stage 2)
+
+### Languages
+- Russian (native)
+- English (A1)
+
+## Code example
+```js
+var WordDictionary = function () {
+  this.dictionary = [];
+};
+
+WordDictionary.prototype.addWord = function (word) {
+   this.dictionary.push(word);
+};
+
+WordDictionary.prototype.search = function (word) {
+  let dictForWord = this.dictionary.filter(x => { return x.length === word.length });
+   for (let i = 0; i < dictForWord.length; i++) {
+     if (dictForWord[i].match(word)) return true;
+   }
+   return false;
+};
+```
