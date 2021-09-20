@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+	<title>CV Aleshkin Paul</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script defer src="./script.js"></script>
+</head>
+<body class="central-container">
+    <header class="cleargix cv-header">
+		<h1 class="cv-fullname">Aleshkin Paul</h1>
+        <hr/>
+        <div class="cv-header-info">
+            <img class="cv-avatar" src="assets/images/photo_cv.png" alt="Алешкин Павел">
+            <nav class="cv-nav">
+                <button class="cv-nav-button"></button>
+                <ul class="cv-nav-list cv-nav-list-closed">
+                    <li class="cv-nav-list-item"><a href="#contacts" class="cv-nav-list-item-link">Contacts</a></li>
+                    <li class="cv-nav-list-item"><a href="#about" class="cv-nav-list-item-link">About</a></li>
+                    <li class="cv-nav-list-item"><a href="#education" class="cv-nav-list-item-link">Education</a></li>
+                    <li class="cv-nav-list-item"><a href="#experience" class="cv-nav-list-item-link">Experience</a></li>
+                    <li class="cv-nav-list-item"><a href="#skills" class="cv-nav-list-item-link">Skills</a></li>
+                    <li class="cv-nav-list-item"><a href="#languages" class="cv-nav-list-item-link">Languages</a></li>
+                    <li class="cv-nav-list-item"><a href="#project" class="cv-nav-list-item-link">Project</a></li>
+                    <li class="cv-nav-list-item"><a href="#code-example" class="cv-nav-list-item-link">Code example</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+	<main class="cv-main">
+		<section class="cv-section">
+			<h2 class="cv-section-title" id="contacts">Contacts</h2>
+			<ul class="cv-contacts-list">
+				<li class="cv-contacts-list-item"><a class="cv-contact-link tg-logo" href="tg://resolve?domain=aleshkin"></a><span class="cv-contact-title">Telegram:</span> aleshkin</li>
+				<li class="cv-contacts-list-item"><a class="cv-contact-link github-logo" href="http://github.com/aleshkinpaul/"></a><span class="cv-contact-title">GitHub:</span> aleshkinpaul</li>
+			</ul>
+		</section>
+		<article class="cv-section">
+			<h2 class="cv-section-title" id="about">About</h2>
+			<p>I graduated from Moscow State University with a Mechanics and Mathematics degree in 2019. For 4.5 years I worked as System Analyst in Moscow.</p>
+			<p>Some years ago I have interested in front-end developing. I love coding, solving tasks, making algoritms and working with visual components.</p>
+			<p>I expect to become a front-end developer soon.</p>
+		</article>
+		<section class="cv-section">
+			<h2 class="cv-section-title" id="education">Education</h2>
+            <ul>
+                <li>2013-2019: Moscow State University, Faculty of Mechanics and Mathematics, Department of Probability theory</li>
+                <li>2020: RSSchool (JavaScript/Front-end 2020Q1 / Stage 2)</li>
+            </ul>
+		</section>
+		<section class="cv-section">
+			<h2 class="cv-section-title" id="experience">Experience</h2>
+            <ul>
+			    <li>2017-current time: System Analyst</li>
+            </ul>
+		</section>
+		<section class="cv-section">
+			<h2 class="cv-section-title" id="skills">Skills</h2>
+			<ul>
+				<li><h3>Programming languages:</h3>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript (+ Angular basics)</li>
+						<li>SQL</li>
+						<li>Python (basics)</li>
+					</ul>
+				</li>
+				<li><h3>Version control systems:</h3>
+					<ul>
+						<li>MS Visual Studio</li>
+						<li>GIT (basics)</li>
+					</ul>
+				</li>
+				<li><h3>Soft:</h3>
+					<ul>
+						<li>Adobe Photoshop</li>
+						<li>Adobe Illustrator</li>
+						<li>MS PowerPoint</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<section class="cv-section">
+			<h2 class="cv-section-title" id="languages">Languages</h2>
+            <ul>
+			    <li>Russian (native)</li>
+			    <li>English (A1)</li>
+            </ul>
+		</section>
+        <section class="cv-section">
+            <h2 class="cv-section-title" id="project">Project</h2>
+            <h3 class="cv-section-project-title">Virtual Keyboard</h3>
+            <figure class="cv-section-project-figure">
+                <a class="cv-section-project-link" href="https://aleshkinpaul.github.io/virtual-keyboard/" target="_blank">
+                    <img class="cv-section-project-image" src="assets/images/virtual-keyboard.jpeg" alt="Virtual Keyboard Application">
+                </a>
+                <figcaption class="cv-section-project-description">
+                    This application emulates keyboard behaviour. I have done this project on Stage 2 of the course "JavaScript/Front-end 2020Q1" (RS School).
+                </figcaption>
+            </figure>
+            <p class="cv-section-project-comment"><i>Technology stack: HTML, CSS, JavaScript</i></p>
+        </section>
+		<section class="cv-section">
+			<h2 class="cv-section-title" id="code-example">Code example</h2>
+            <pre class="cv-pre-code">
+                <code class="javascript">
+var WordDictionary = function () {
+    this.dictionary = [];
+};
+
+WordDictionary.prototype.addWord = function (word) {
+    this.dictionary.push(word);
+};
+
+WordDictionary.prototype.search = function (word) {
+    let dictForWord = this.dictionary.filter(x =&gt; {
+        return x.length === word.length
+    });
+    for (let i = 0; i &lt; dictForWord.length; i++) {
+        if (dictForWord[i].match(word)) return true;
+    }
+    return false;
+};
+            </code>
+        </pre>
+		</section>
+        <hr/>
+	</main>
+    <footer class="сv-footer">
+      <span class="сv-footer-component">
+          &copy;2021 <a class="cv-contact-link github-logo" href="http://github.com/aleshkinpaul/"></a>aleshkinpaul
+      </span>
+      <span class="сv-footer-component">
+        <a href="https://rs.school/js/" class="cv-footer-rs-school">
+          <img src="assets/images/rs_school_js.svg" alt="JavaScript/Front-end" class="cv-footer-rsschool">
+        </a>
+      </span>
+    </footer>
+</body>
+</html>
