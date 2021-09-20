@@ -7,7 +7,7 @@
 
 ### About
 I graduated from Moscow State University with a Mechanics and Mathematics degree in 2019.
-For 4.5 years I worked as System Analyst in Moscow.
+For 4.5 years I have working as System Analyst in Moscow.
 
 Some years ago I have interested in front-end developing. I love coding, solving tasks, making algoritms and working with visual components.
 
