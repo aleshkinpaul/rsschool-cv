@@ -40,7 +40,7 @@ I expect to become a front-end developer soon.
 - English (A1)
 
 ### Project
-- [Virtual Keyboard](https://aleshkinpaul.github.io/virtual-keyboard/) - This application emulates keyboard behaviour. I have done this project on Stage 2 of the course "JavaScript/Front-end 2020Q1" (RS School).
+- [Virtual Keyboard](https://aleshkinpaul.github.io/virtual-keyboard/) - This application emulates keyboard behaviour. This project I have done on Stage 2 of the course "JavaScript/Front-end 2020Q1" (RS School).
 
 ## Code example
 ```js
