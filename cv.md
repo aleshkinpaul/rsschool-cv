@@ -13,6 +13,13 @@ Some years ago I have interested in front-end developing. I love coding, solving
 
 I expect to become a front-end developer soon.
 
+### Education
+- 2013-2019: Moscow State University, Faculty of Mechanics and Mathematics, Department of Probability theory
+- 2020: RSSchool (JavaScript/Front-end 2021Q3 / Stage 2)
+
+### Experience
+- 2017-current time: System Analyst
+
 ### Skills
 - Programming languages:
 	- HTML
@@ -28,16 +35,12 @@ I expect to become a front-end developer soon.
 	- Illustrator
 	- PowerPoint
 
-### Experience
-- 2017-current time: System Analyst
-
-### Education
-- 2013-2019: Moscow State University, Faculty of Mechanics and Mathematics, Department of Probability theory
-- 2020: RSSchool (JavaScript/Front-end 2021Q3 / Stage 2)
-
 ### Languages
 - Russian (native)
 - English (A1)
+
+### Project
+- [Virtual Keyboard](https://aleshkinpaul.github.io/virtual-keyboard/) - This application emulates keyboard behaviour. I have done this project on Stage 2 of the course "JavaScript/Front-end 2020Q1" (RS School).
 
 ## Code example
 ```js
